@@ -71,7 +71,7 @@ static const struct arg args[] = {
 	{ temp, 	" [  %s°C ]",  	"/sys/class/thermal/thermal_zone0/temp" },
 	{ battery_perc, " [  %s% ]",  		"BAT0" },
 	{ run_command, " [  %s%% ]", "/bin/sh -c \"amixer get Master | tail -n1 | grep -Po '\\[\\K[^%]*' | head -n1\"" },
-	{ wifi_essid, 	" [  %s ]",  		"wlo1" },
+	{ wifi_essid, 	" [  %s ]",  		"wlan0" },
 	{ keymap, 	" [  %s ]",  		NULL },
 	{ datetime, 	" %s ",           	"%A %D %R" },
 	// { datetime, 	" %s ",           	"%F %T" },
